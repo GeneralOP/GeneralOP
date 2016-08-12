@@ -27,7 +27,7 @@ public class C_staff implements CommandExecutor
         for (Player all : Bukkit.getOnlinePlayers())
         {
             all.sendMessage(ChatColor.ITALIC + "" + ChatColor.GRAY + "----------"
-                    + ChatColor.LIGHT_PURPLE + "Stsff online"
+                    + ChatColor.LIGHT_PURPLE + "Staff online"
                     + ChatColor.ITALIC + "" + ChatColor.GRAY + "----------");
 
             all.sendMessage(ChatColor.GOLD + staff.toString());
